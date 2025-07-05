@@ -1,0 +1,20 @@
+{
+  "name": "notebooks",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "forwardPorts": [8888],
+  "containerEnv": {
+    "GH_TOKEN": "${localEnv:GH_TOKEN}",
+    "HF_TOKEN": "${localEnv:HF_TOKEN}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "charliermarsh.ruff",
+        "editorconfig.editorconfig",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}
