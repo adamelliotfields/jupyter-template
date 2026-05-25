@@ -1,9 +1,10 @@
 {
   "recommendations": [
+    "astral-sh.ty",
     "charliermarsh.ruff",
-    "editorconfig.editorconfig",
     "ms-python.python",
     "ms-toolsai.jupyter",
     "tamasfe.even-better-toml"
-  ]
+  ],
+  "unwantedRecommendations": ["ms-python.vscode-pylance"]
 }
